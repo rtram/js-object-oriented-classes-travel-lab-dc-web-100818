@@ -6,6 +6,6 @@ class Driver {
   
   startDate() {
     let date = new Date(this.startDate);
-    debugger
+    debugger;
   }
 }
