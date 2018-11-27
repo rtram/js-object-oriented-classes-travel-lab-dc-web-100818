@@ -18,6 +18,7 @@ class Route {
   }
   
   blocksTravelled() {
-    eastWest.indexOf(beginningLocation.horizontal)
+    let width = Math.abs(eastWest.indexOf(beginningLocation.horizontal) - eastWest.indexOf(endingLocation.horizontal))
+    
   }
 }
