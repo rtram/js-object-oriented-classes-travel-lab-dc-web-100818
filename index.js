@@ -22,4 +22,8 @@ class Route {
     let vertical = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical)
     return width+vertical
   }
+  
+  estimatedTime() {
+    
+  }
 }
