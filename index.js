@@ -18,6 +18,6 @@ class Route {
   }
   
   blocksTravelled() {
-    beginningLocation.hori
+    beginningLocation.horizontal
   }
 }
