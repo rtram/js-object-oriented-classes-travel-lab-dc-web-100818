@@ -3,9 +3,4 @@ class Driver {
     this.name = name;
     this.startDate = new Date(this.startDate);
   }
-  
-  startDate() {
-    let date = ;
-    debugger;
-  }
 }
