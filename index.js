@@ -23,7 +23,12 @@ class Route {
     return width+vertical
   }
   
-  estimatedTime() {
-    return this.blocksTravelled()/3
+  estimatedTime(boolean) {
+    if true {
+      return this.blocksTravelled()/3
+    } else {
+      return this.blocksTravelled()/2
+    }
+
   }
 }
